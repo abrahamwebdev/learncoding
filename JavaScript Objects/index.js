@@ -38,7 +38,7 @@ function addMarks(subject,mark) {
     classObj["students"][0]["marks"]=classObj["students"][0]["marks"] || [];
     classObj["students"][0]["marks"].push({"subject":subject,"mark":mark});
 }
-addMarks("English",85)
+// addMarks("English",85)
 // console.log(classObj)
 
 
@@ -53,6 +53,7 @@ function addMarksMultiple(subject,markList,studentList) {
     }
 
 addMarksMultiple("Maths",[81,82],["Abraham","Tom"])
+addMarksMultiple("English",[91,87],["Abraham","Tom"])
 console.log(classObj)
 
 
@@ -128,5 +129,30 @@ function topperSubject(subject) {
 }
 console.log(topperSubject("Maths"))
 
+// 9. Find the average mark for a given subject
+function averageSubject(subject) {
+    let sum=0;
+   for (let i = 0; i < classObj["students"].length; i++) {
+                for (let j = 0; j < classObj["students"][i]["marks"].length; j++) {
+                    if (subject===classObj["students"][i]["marks"][j]["subject"]) {
+                        sum=sum+classObj["students"][i]["marks"][j]["mark"];
+                        
+                    }
+                }
+            
+    }
+    return sum/classObj["students"].length
+}
+console.log(averageSubject("Maths"))
 
 
+// 10. Sort and display the list of students in any order
+//  - ordered by name
+function studentList() {
+    stud=[]
+    for (let i = 0; i < classObj["students"].length; i++) {
+        stud.push(classObj["students"][i]["name"]);
+    }
+    return stud.sort();
+}
+console.log(studentList())
