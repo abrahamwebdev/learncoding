@@ -80,3 +80,53 @@ function changeTeacher(teacher) {
     return classObj;
 }
 console.log(changeTeacher("Preethy"));
+
+
+// 6. Remove a student from a class
+function removeStudent(studentName) {
+    for (let i = 0; i < classObj["students"].length; i++) {
+            if (studentName===classObj["students"][i]["name"]) {
+                classObj["students"].splice(i,1);
+            }
+    }
+    return classObj;
+}
+// console.log(removeStudent("Tom"))
+
+
+// 7. Delete a subject entry from every students
+function deleteSubject(subject) {
+    for (let i = 0; i < classObj["students"].length; i++) {
+                for (let j = 0; j < classObj["students"][i]["marks"].length; j++) {
+                    if (subject===classObj["students"][i]["marks"][j]["subject"]) {
+                        classObj["students"][i]["marks"].splice(j,1)
+                    }
+                }
+            
+    }
+    return classObj;
+}
+// console.log(deleteSubject("Maths"))
+
+
+// 8. Find the topper of a class given a subject
+function topperSubject(subject) {
+    let prev=0;
+   for (let i = 0; i < classObj["students"].length; i++) {
+                for (let j = 0; j < classObj["students"][i]["marks"].length; j++) {
+                    if (subject===classObj["students"][i]["marks"][j]["subject"]) {
+                        let newMax=Math.max(prev,classObj["students"][i]["marks"][j]["mark"]);
+                        if (prev!=newMax) {
+                            curTopper=[classObj["students"][i]["name"],newMax];
+                        }
+                        prev=newMax;
+                    }
+                }
+            
+    }
+    return curTopper;
+}
+console.log(topperSubject("Maths"))
+
+
+
