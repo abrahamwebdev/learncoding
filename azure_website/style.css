@@ -176,7 +176,161 @@ padding: 1rem 2rem 0.5rem 0.25rem;
     font-weight: 600;
     color: #50e6ff;
 }
+
 .azure-banner:hover {
     background-color: #000000;
     color: #3aa0fa;
+}
+
+.cloud-banner {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: white;
+    height: 15vh;
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+.cloud-features {
+    height: 70vh;
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 6rem;
+}
+
+.cloud-migrate {
+   
+    height:100%;
+    width: 48%; 
+    background-image: url("./assets/ez-button-01-dmwl.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.cloud-migrate-flex{
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    align-items: flex-start;
+    align-content: flex-end;
+}
+.cloud-migrate-tag{
+    margin-top: 30rem;
+}
+.cloud-migrate-flex p {
+    font-size: 16px;
+}
+
+.cloud-migrate-flex a {
+    font-size: 19px;
+    font-weight: 600;
+    color: #0067b8;
+}
+
+.cloud-build-explore {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 50%; 
+    column-gap: 0.5rem;
+}
+.cloud-build-explore-child {
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem;
+
+}
+
+.cloud-build-explore-parent {
+    height: 47%;
+}
+.cloud-build-explore-child a {
+    font-size: 19px;
+    font-weight: 600;
+    color: #0067b8;
+}
+
+.cloud-build-explore-child p {
+    font-size: 16px;
+}
+.cloud-build-explore-child-padding {
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
+.azure-overview {
+display: flex;
+align-items: center; 
+    justify-content: center;
+    height: 8vh;
+}
+.azure-overview p {
+    font-size: 16px;
+}
+.get-an-overview {
+    cursor: pointer;
+    border: 2px solid #0078d4;
+    background-color: transparent;
+    color: #0078d4;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0.6rem 0.75rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.customers-are-innovating {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 15vh;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.azure-customers {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 35vh;
+}
+
+.azure-customers img {
+    padding: 0rem 3rem;
+}
+.accelerate {
+    background-color: #f8f9fa;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+
+    
+}
+.accelerate-image {
+    padding: 0rem 3rem;
+}
+.accelerate-child {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    height: 20vh;
+    width: 40vw;
+    padding-left: 10rem;
+}
+.accelerate-child a {
+    cursor: pointer;
+    border: 2px solid #0078d4;
+    background-color: transparent;
+    color: #0078d4;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 0.6rem 0.75rem;
+    font-weight: 600;
+}
+.accelerate-child p {
+    font-size: 3rem;
+    font-weight: 500;
 }
