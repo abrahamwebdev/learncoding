@@ -613,3 +613,64 @@ footer {
 .footer-bottom div{
     padding-left: 2rem;
 }
+
+
+
+/* .home-desktop {
+    height:100vh;
+    width: auto; 
+    background-image: url("./assets/home_desktop.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.desktop-grid-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr 5fr 6fr;
+    grid-template-columns: 1fr 6fr 5fr;
+}
+.desktop-child {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: black;
+    padding: 3rem 3rem;
+} */
+.nhs-azure {
+    height:80vh;
+    width: auto; 
+    background-image: url("./assets/nhs-home-customerstory.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.nhs-azure-grid-container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 50% 40% 10%;
+    grid-template-columns: 5% 55% 40%;
+}
+.nhs-azure-child  {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: black;
+    padding: 3rem 3rem;
+}
+.nhs-azure-child p {
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+.nhs-azure-child a {
+    font-size: 16px;
+    color: #50e6ff;
+    font-weight: 600;
+}
+.nhs-azure-child div{
+    padding-top: 1.5rem;
+}
