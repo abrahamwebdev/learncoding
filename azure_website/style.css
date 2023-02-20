@@ -499,7 +499,7 @@ align-items: center;
       }
 
 footer {
-    height: 110vh;
+    height: 100vh;
     background-color: #f4f5f6;
 }
 .get-azure-mobile-app {
@@ -563,4 +563,53 @@ footer {
 .footer-link-section .text div {
     padding-top: 1.5rem;
 
+}
+
+.footer-final {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+.footer-final-right {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.languages p {
+    font-size: 16px;
+    padding-bottom: 1rem;
+    color: #1a1a1f;
+
+}
+.languages select {
+    font-size: 14px;
+    color: #1a1a1f;
+    padding: 0.5rem 2rem;
+}
+
+.footer-final-right a{
+    font-size: 12px;
+    color: #1a1a1f;
+}
+
+.footer-final-right a:hover{
+    text-decoration: underline;
+}
+.footer-bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 2rem;
+}
+.footer-bottom a{
+    font-size: 12px;
+    color: #1a1a1f;
+}
+.footer-bottom a:hover{
+    text-decoration: underline;
+
+}
+.footer-bottom div{
+    padding-left: 2rem;
 }
