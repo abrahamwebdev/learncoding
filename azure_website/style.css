@@ -390,3 +390,56 @@ align-items: center;
     font-weight: 500;
     padding: 1rem 2rem;
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+  }
+  .card {
+    flex: 0 0 31%;
+    margin: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text p {
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .card .text div{
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
+  }
+  .card .text p:nth-child(1) {
+    font-size: 14px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .card .text a {
+    font-size: 16px;
+    color: #0067b8;
+    font-weight: 600;
+    /* margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem; */
+    }
+
+    .happening-on-azure {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 4rem;
+    }
