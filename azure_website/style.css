@@ -497,3 +497,70 @@ align-items: center;
        .colored-card:nth-child(3) {
         background-color: #0062ad;
       }
+
+footer {
+    height: 110vh;
+    background-color: #f4f5f6;
+}
+.get-azure-mobile-app {
+    display: flex;
+    padding: 4rem 4rem;
+    align-items: center;
+}
+.get-azure-mobile-app img {
+    width: 25px;
+}
+
+.get-azure-mobile-app div:nth-child(2) {
+    display: flex;
+} 
+.get-azure-mobile-app-parent{
+    display: flex;
+    background-color: #eaebec;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+}
+
+.get-azure-mobile-app-child {
+    padding:0rem 1rem ;
+}
+.get-azure-mobile-app-child p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4c4c51;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.footer-link-section {
+    flex: 0 0 15%;
+    margin: 10px;
+    
+}
+
+.footer-link-section .text {
+    padding: 0 20px 20px;
+
+}
+
+.footer-link-section .text p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1f;
+}
+
+.footer-link-section .text a {
+    font-size: 12px;
+    color: #1a1a1f;
+}
+.footer-link-section .text a:hover {
+    text-decoration: underline;
+}
+.footer-link-section .text div {
+    padding-top: 1.5rem;
+
+}
