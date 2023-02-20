@@ -392,6 +392,7 @@ align-items: center;
 }
 
 .cards {
+    background-color: #f8f9fa;
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
@@ -435,6 +436,8 @@ align-items: center;
     }
 
     .happening-on-azure {
+        background-color: #f8f9fa;
+
         height: 10vh;
         display: flex;
         align-items: center;
@@ -443,3 +446,54 @@ align-items: center;
         font-weight: 600;
         margin-top: 4rem;
     }
+
+
+    .colored-cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        padding: 5rem 8rem;
+      }
+      .colored-card {
+        flex: 0 0 31%;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: #000000;
+        padding-bottom: 2rem;
+
+      } 
+      .colored-card img {
+        max-width:35px;
+      }
+      .image-div {
+        padding-top: 2rem;
+        padding-left: 2rem;
+      }
+      .colored-card .text {
+        padding: 0 20px 20px;
+        font-size: 16px;
+      }
+      .colored-card .text a {
+        color: white;
+      }
+      .colored-card .text div:nth-child(1)  {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 19px;
+        font-weight: 600;
+      }
+      .colored-card .text div:nth-child(1) a {
+        text-decoration: underline;
+
+      }
+
+      .colored-card:nth-child(1) {
+        background-color: #243a5e;
+      }
+      .colored-card:nth-child(2) {
+        background-color: #000000;
+      }
+       .colored-card:nth-child(3) {
+        background-color: #0062ad;
+      }
