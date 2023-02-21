@@ -209,6 +209,7 @@ padding: 1rem 2rem 0.5rem 0.25rem;
     background-position:center center;
     background-repeat: no-repeat;
     background-size:auto;
+    
 }
 .cloud-migrate-flex{
     display: flex;
@@ -615,30 +616,6 @@ footer {
 }
 
 
-
-/* .home-desktop {
-    height:100vh;
-    width: auto; 
-    background-image: url("./assets/home_desktop.jpg");
-    background-position:center center;
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-
-
-.desktop-grid-container {
-    display: grid;
-    height: 100%;
-    width: 100%;
-    grid-template-rows: 1fr 5fr 6fr;
-    grid-template-columns: 1fr 6fr 5fr;
-}
-.desktop-child {
-    grid-row: 2/3;
-    grid-column: 2/3;
-    background-color: black;
-    padding: 3rem 3rem;
-} */
 .nhs-azure {
     height:80vh;
     width: auto; 
@@ -674,3 +651,81 @@ footer {
 .nhs-azure-child div{
     padding-top: 1.5rem;
 }
+
+.start-putting {
+    height: 10vh;
+    padding:7rem 5rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.products-and-services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+    height: 90vh;
+}
+
+.products-services-sidebar {
+    width: 1000px;
+}
+.products-services-sidebar a {
+    color: #505050;
+    font-size: 16px;
+    font-weight: 600;
+}
+.products-services-sidebar div {
+    padding: 1rem 1rem;
+}
+
+.products-services-right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.products-services-card {
+    flex: 0 0 250px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.13) 0px 3px 7px 0px, rgba(0, 0, 0, 0.11) 0px 1px 2px 0px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.products-services-card img {
+    max-width: 40px;
+    min-width: 40px;
+  }
+  .products-services-card .text {
+    /* padding: 0 20px 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products-services-card .text p{
+    font-size: 16px;
+    padding: 2rem 2rem;
+
+  }
+
+  .products-services-card .text a{
+    font-size: 16px;
+    color: #0067b8;
+    font-weight: 500;
+    text-decoration: underline;
+
+  }
+
+  .products-services-card div:nth-child(1) {
+    padding:1rem 10rem;
+  }
+
+  .products-services-card:nth-child(3) p {
+    margin-bottom: 2rem;
+  }
+
+  .products-services-card:nth-child(5) p {
+    margin-bottom: 2rem;
+  }
